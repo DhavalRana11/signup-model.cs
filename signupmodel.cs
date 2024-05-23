@@ -29,7 +29,7 @@ namespace QuickShoap.Models
         public string password { get; set; }
 
         [Required(ErrorMessage = "Enter cpassword")]
-        [System.ComponentModel.DataAnnotations.Compare("password", ErrorMessage = "your entered the confirm password not match passowrd")]
+        [System.ComponentModel.DataAnnotations.Compare("password", ErrorMessage = "your entered the confirm password not match password")]
         public string cpassword { get; set; }
 
         [Required(ErrorMessage = "Enter your Residency")]
